@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    {% load bootstrap4 %}
+ 
+	  {# CSS Bootstrap #}
+	  {% bootstrap_css %}
+        {% block head %}
+        
+        {% endblock %}
+      
+</head>
+<body>
+    
+<div class="container">
+  {% block content %}
+  {% endblock %}
+<!-- Footer -->
+<div class="conatiner">
+<footer class="page-footer font-small pt-4 container-fluid basedesign">
+
+    <!-- Footer Text -->
+    <div class="container-fluid text-center text-md-left">
+  
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+  
+          <!-- Content -->
+          <h5 class="text-uppercase font-weight-bold">Acerca de</h5>
+          <p>
+          </p>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none pb-3">
+  
+        <!-- Grid column -->
+        <div class="col-md-6 mb-md-0 mb-3">
+  
+          <!-- Content -->
+          <h5 class="text-uppercase font-weight-bold">¡Haz tu pedido!</h5>
+          <p></p>
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Text -->
+  
+  </footer>
+  <!-- Footer -->
+</div>
+</div>
+
+  {# JS y jQuery Bootstrap #}
+	  {% bootstrap_javascript jquery='full' %}
+</body>

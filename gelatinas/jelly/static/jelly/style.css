@@ -1,0 +1,21 @@
+* {
+    font-family: 'Contrail One', cursive !important;
+}
+
+body {
+    background-color:rgb(255, 252, 242);
+}
+
+.responsive {
+    width: 50% !important;
+    height: auto;
+}
+
+.basedesign{
+    margin-top: 0.5em;
+    border-color: rgb(224, 205, 248);
+    border-width: 8px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: rgb(235, 209, 154);
+}
