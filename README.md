@@ -1,0 +1,2 @@
+# Bazar
+Created using Django.
